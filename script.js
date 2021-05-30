@@ -22,9 +22,9 @@ function updateRate()
 //Validate that principal value is a positive number
 function validatePrincipal() {
     var principal = document.getElementById("principal");
-    if(principal.value > 0)
-     {return false;}
-    else{
+    var isValid = principal.value > 0;
+    if(!isValid)
+    {
         alert("Enter a positive number");
     }
 
