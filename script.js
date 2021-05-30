@@ -1,6 +1,4 @@
-
-
-#Compute interest rate and display message
+//Compute interest rate and display message
 function compute()
 {
     var principal = document.getElementById("principal").value;
@@ -12,14 +10,14 @@ function compute()
     document.getElementById("result").innerText=message;
 }
 
-#Update rate based on slider
+//Update rate based on slider
 function updateRate() 
 {
     var rateval = document.getElementById("rate").value;
     document.getElementById("rate_val").innerText=rateval;
 }
 
-#Validate that principal value is a positive number
+//Validate that principal value is a positive number
 function validatePrincipal() {
   var checkInput = document.getElementById("pricipal");
   if (checkInput <= "0") {
