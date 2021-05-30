@@ -6,8 +6,8 @@ function compute()
     var years = document.getElementById("years").value;
     var interest = principal * years * rate /100;
     var year = new Date().getFullYear()+parseInt(years);
-    var message = "If you deposit " + principal + ",\n at an interest rate of " + rate + ".\nYou will receive an amount of " + interest + ",\nin the year " + year
-    document.getElementById("result").innerText=message;
+    var message = "If you deposit <mark>" + principal + "</mark>,<br /> at an interest rate of <mark>" + rate + "</mark>.<br />You will receive an amount of <mark>" + interest + "</mark>,<br />in the year <mark>" + year + "</mark>";
+    document.getElementById("result").innerHTML=message;
 }
 
 //Update rate based on slider
