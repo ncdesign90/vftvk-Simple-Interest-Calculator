@@ -9,7 +9,7 @@ h1{
     font-family:verdana
     }
 
-.maindiv {
+.maindiv{
     background-color:white;
     color:black;
     width:300px;
@@ -17,3 +17,4 @@ h1{
     border-radius:25px;
     align:center
 }
+
